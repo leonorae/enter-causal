@@ -1,0 +1,12 @@
+[project]
+name = "enter-causal"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "causalnex",
+    "dowhy>=0.13",
+    "econml>=0.16.0",
+    "fastapi>=0.117.1",
+]
